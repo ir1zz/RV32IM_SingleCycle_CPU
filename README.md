@@ -16,7 +16,7 @@ This project implements a **fully modular RV32IM Single-Cycle CPU** with extensi
 * **Scalable and Educational**: Designed for both learning and practical RTL experimentation, with clean, modular coding conventions (pascal case nomenclature).
 * **Tool Considerations**: This CPU has been designed primiarily using Vivado 2024.2 EDA Suite (ML Standard Edition). The directory structure and usage instructions are reflective of this.
 
-* ### RTL Implementation
+### RTL Implementation
 This CPU consists of 17 parameterized modules, namely:
   * 1. Program Counter
   * 2. PC Incrementer
@@ -36,7 +36,7 @@ This CPU consists of 17 parameterized modules, namely:
   * 16. PC Next Mux
   * 17. Data Memory (single port read/write)
 
-* ### Supported Instructions by Type
+### Supported Instructions by Type
 
 This CPU fully implements the **RV32IM ISA**, including both integer and multiplication/division operations.
 
@@ -50,10 +50,12 @@ This CPU fully implements the **RV32IM ISA**, including both integer and multipl
 | **U-type** | `LUI`, `AUIPC` |
 | **J-type** | `JAL` |
 
-* ### Schematic for Data and Control Path - RV32IM Single Cycle implementation
+### Schematic for Data and Control Path - RV32IM Single Cycle implementation
 * ..
 
-* ### Unique Features
+
+
+### Unique Features
 * **Datapath Customisations based on classic designs:** This CPU has been designed with several innovations in the datapath to incorporate RV32M support and ensure adherence to the RV32IM spec.
   * With **2 ALUs present (Rv32I/RV32M)**, a seperate **ALU selector mux** has been implemented that routes the correct Result and Zero signals forward into the datapath.
   * A unified **ALU input selector mux tree** handles all the inputs (ReadData1, ReadData2, Immediate, PC) and routes them to both ALUs
@@ -62,5 +64,7 @@ This CPU fully implements the **RV32IM ISA**, including both integer and multipl
   * The **Data Memory** module has been designed with partial width stores and loads integrated into the hardware using shift-mask and byte offset methods to ensure that the corresponding instructions are hardware optimised.
 * **Control Path Customisations:** Several new and effective control signals have been impelmented as part of the Control Path, for selections between ALus, Target Control, Partial Width Load and Store etc.
 * The current design uses **memory pre-loads** for Data Memory and instruction Memory for corner-case testing and verification.
+
+
 
 This CPU project provides a solid foundation for exploring **RISC-V CPU design**, datapath optimization, and modular hardware development.
