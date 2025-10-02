@@ -1,0 +1,16 @@
+00000013   // 0: NOP (ADDI x0,x0,0) – easy baseline
+11112222   // 1: Pattern 1
+33334444   // 2: Pattern 2
+55556666   // 3: Pattern 3
+77778888   // 4: Pattern 4
+9999AAAA   // 5: Pattern 5
+BBBBCCCC   // 6: Pattern 6
+DDDDEEEE   // 7: Pattern 7
+12345678   // 8: Pattern 8
+9ABCDEF0   // 9: Pattern 9
+0F1E2D3C   // 10: Pattern 10
+4B5A6978   // 11: Pattern 11
+89ABCDEF   // 12: Pattern 12
+FEEDC0DE   // 13: Pattern 13
+DEADBEEF   // 14: Pattern 14
+CAFEBABE   // 15: Pattern 15  (last valid entry)

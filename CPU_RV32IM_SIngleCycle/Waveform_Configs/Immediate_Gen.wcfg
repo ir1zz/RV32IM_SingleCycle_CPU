@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Immediate_Gen_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Immediate_Gen_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="130.774 ns"></ZoomEndTime>
+      <Cursor1Time time="30.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="251"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject type="array" fp_name="/Immediate_Gen_TB/Instr_RV32IM">
+      <obj_property name="ElementShortName">Instr_RV32IM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_RV32IM[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Immediate_Gen_TB/ImmediateSrc">
+      <obj_property name="ElementShortName">ImmediateSrc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmediateSrc[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Immediate_Gen_TB/Immediate">
+      <obj_property name="ElementShortName">Immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Immediate[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Immediate_Gen_TB/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Immediate_Gen_TB/Result_Check">
+      <obj_property name="ElementShortName">Result_Check</obj_property>
+      <obj_property name="ObjectShortName">Result_Check</obj_property>
+   </wvobject>
+</wave_config>

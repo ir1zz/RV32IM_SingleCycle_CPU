@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ALU_RV32I_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ALU_RV32I_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="200.001 ns"></ZoomEndTime>
+      <Cursor1Time time="30.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="397"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="array" fp_name="/ALU_RV32I_TB/Op1">
+      <obj_property name="ElementShortName">Op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32I_TB/Op2">
+      <obj_property name="ElementShortName">Op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32I_TB/ALUControl">
+      <obj_property name="ElementShortName">ALUControl[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU_RV32I_TB/MDSel">
+      <obj_property name="ElementShortName">MDSel</obj_property>
+      <obj_property name="ObjectShortName">MDSel</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32I_TB/ALUResult_I">
+      <obj_property name="ElementShortName">ALUResult_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_I[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU_RV32I_TB/Zero_I">
+      <obj_property name="ElementShortName">Zero_I</obj_property>
+      <obj_property name="ObjectShortName">Zero_I</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32I_TB/WIDTH">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU_RV32I_TB/Result_Check">
+      <obj_property name="ElementShortName">Result_Check</obj_property>
+      <obj_property name="ObjectShortName">Result_Check</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32I_TB/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

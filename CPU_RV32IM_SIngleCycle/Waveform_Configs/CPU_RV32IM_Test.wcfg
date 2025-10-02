@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_RV32IM_Test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_RV32IM_Test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="78.334 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,078.335 ns"></ZoomEndTime>
+      <Cursor1Time time="345.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="370"></NameColumnWidth>
+      <ValueColumnWidth column_width="349"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_PCWrite">
+      <obj_property name="ElementShortName">CPU_PCWrite</obj_property>
+      <obj_property name="ObjectShortName">CPU_PCWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_clk">
+      <obj_property name="ElementShortName">CPU_clk</obj_property>
+      <obj_property name="ObjectShortName">CPU_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_rst_n">
+      <obj_property name="ElementShortName">CPU_rst_n</obj_property>
+      <obj_property name="ObjectShortName">CPU_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_PC">
+      <obj_property name="ElementShortName">CPU_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_Instr_RV32IM">
+      <obj_property name="ElementShortName">CPU_Instr_RV32IM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_Instr_RV32IM[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_Immediate">
+      <obj_property name="ElementShortName">CPU_Immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_Immediate[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_ALUControl">
+      <obj_property name="ElementShortName">CPU_ALUControl[5:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_ALUControl[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_ALUResult">
+      <obj_property name="ElementShortName">CPU_ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_Zero">
+      <obj_property name="ElementShortName">CPU_Zero</obj_property>
+      <obj_property name="ObjectShortName">CPU_Zero</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_ReadData">
+      <obj_property name="ElementShortName">CPU_ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_WriteDataReg">
+      <obj_property name="ElementShortName">CPU_WriteDataReg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_WriteDataReg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_ALUOp">
+      <obj_property name="ElementShortName">CPU_ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_MDSel">
+      <obj_property name="ElementShortName">CPU_MDSel</obj_property>
+      <obj_property name="ObjectShortName">CPU_MDSel</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_ImmediateSrc">
+      <obj_property name="ElementShortName">CPU_ImmediateSrc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_ImmediateSrc[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_BranchSel">
+      <obj_property name="ElementShortName">CPU_BranchSel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_BranchSel[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_RegWrite">
+      <obj_property name="ElementShortName">CPU_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">CPU_RegWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_MemRead">
+      <obj_property name="ElementShortName">CPU_MemRead</obj_property>
+      <obj_property name="ObjectShortName">CPU_MemRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_MemWrite">
+      <obj_property name="ElementShortName">CPU_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">CPU_MemWrite</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_MemToReg">
+      <obj_property name="ElementShortName">CPU_MemToReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_MemToReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CPU_RV32IM_Test/CPU_MemDataType">
+      <obj_property name="ElementShortName">CPU_MemDataType[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_MemDataType[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_ALUSrc1">
+      <obj_property name="ElementShortName">CPU_ALUSrc1</obj_property>
+      <obj_property name="ObjectShortName">CPU_ALUSrc1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_ALUSrc2">
+      <obj_property name="ElementShortName">CPU_ALUSrc2</obj_property>
+      <obj_property name="ObjectShortName">CPU_ALUSrc2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CPU_RV32IM_Test/CPU_PCSrc">
+      <obj_property name="ElementShortName">CPU_PCSrc</obj_property>
+      <obj_property name="ObjectShortName">CPU_PCSrc</obj_property>
+   </wvobject>
+</wave_config>

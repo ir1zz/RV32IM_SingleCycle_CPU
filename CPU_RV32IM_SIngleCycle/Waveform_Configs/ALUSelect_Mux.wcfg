@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ALUSelect_Mux_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ALUSelect_Mux_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="70.001 ns"></ZoomEndTime>
+      <Cursor1Time time="60.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="217"></NameColumnWidth>
+      <ValueColumnWidth column_width="377"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="array" fp_name="/ALUSelect_Mux_TB/ALUResult_I">
+      <obj_property name="ElementShortName">ALUResult_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_I[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALUSelect_Mux_TB/ALUResult_M">
+      <obj_property name="ElementShortName">ALUResult_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALUSelect_Mux_TB/Zero_I">
+      <obj_property name="ElementShortName">Zero_I</obj_property>
+      <obj_property name="ObjectShortName">Zero_I</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALUSelect_Mux_TB/Zero_M">
+      <obj_property name="ElementShortName">Zero_M</obj_property>
+      <obj_property name="ObjectShortName">Zero_M</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALUSelect_Mux_TB/MDSel">
+      <obj_property name="ElementShortName">MDSel</obj_property>
+      <obj_property name="ObjectShortName">MDSel</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALUSelect_Mux_TB/ALUResult">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALUSelect_Mux_TB/Zero">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALUSelect_Mux_TB/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALUSelect_Mux_TB/Result_Check">
+      <obj_property name="ElementShortName">Result_Check</obj_property>
+      <obj_property name="ObjectShortName">Result_Check</obj_property>
+   </wvobject>
+</wave_config>

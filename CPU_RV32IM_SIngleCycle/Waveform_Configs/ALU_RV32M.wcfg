@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ALU_RV32M_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ALU_RV32M_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="146.700 ns"></ZoomStartTime>
+      <ZoomEndTime time="187.851 ns"></ZoomEndTime>
+      <Cursor1Time time="166.450 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="172"></NameColumnWidth>
+      <ValueColumnWidth column_width="158"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="array" fp_name="/ALU_RV32M_TB/Op1">
+      <obj_property name="ElementShortName">Op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32M_TB/Op2">
+      <obj_property name="ElementShortName">Op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32M_TB/ALUControl">
+      <obj_property name="ElementShortName">ALUControl[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU_RV32M_TB/MDSel">
+      <obj_property name="ElementShortName">MDSel</obj_property>
+      <obj_property name="ObjectShortName">MDSel</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32M_TB/ALUResult_M">
+      <obj_property name="ElementShortName">ALUResult_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU_RV32M_TB/Zero_M">
+      <obj_property name="ElementShortName">Zero_M</obj_property>
+      <obj_property name="ObjectShortName">Zero_M</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU_RV32M_TB/Result_Check">
+      <obj_property name="ElementShortName">Result_Check</obj_property>
+      <obj_property name="ObjectShortName">Result_Check</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU_RV32M_TB/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Control_Unit_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Control_Unit_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="291.721 ns"></ZoomEndTime>
+      <Cursor1Time time="29.190 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="274"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="array" fp_name="/Control_Unit_TB/Instr_RV32IM">
+      <obj_property name="ElementShortName">Instr_RV32IM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_RV32IM[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Control_Unit_TB/ALUOp">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Control_Unit_TB/MDSel">
+      <obj_property name="ElementShortName">MDSel</obj_property>
+      <obj_property name="ObjectShortName">MDSel</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Control_Unit_TB/ImmediateSrc">
+      <obj_property name="ElementShortName">ImmediateSrc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmediateSrc[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Control_Unit_TB/TargetSel">
+      <obj_property name="ElementShortName">TargetSel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TargetSel[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Control_Unit_TB/RegWrite">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Control_Unit_TB/MemRead">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Control_Unit_TB/MemWrite">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Control_Unit_TB/MemToReg">
+      <obj_property name="ElementShortName">MemToReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemToReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Control_Unit_TB/MemDataType">
+      <obj_property name="ElementShortName">MemDataType[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MemDataType[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Control_Unit_TB/ALUSrc1">
+      <obj_property name="ElementShortName">ALUSrc1</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Control_Unit_TB/ALUSrc2">
+      <obj_property name="ElementShortName">ALUSrc2</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Control_Unit_TB/Result_Check">
+      <obj_property name="ElementShortName">Result_Check</obj_property>
+      <obj_property name="ObjectShortName">Result_Check</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Control_Unit_TB/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
