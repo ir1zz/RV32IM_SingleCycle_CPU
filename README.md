@@ -16,25 +16,27 @@ This project implements a **fully modular RV32IM Single-Cycle CPU** with extensi
 * **Scalable and Educational**: Designed for both learning and practical RTL experimentation, with clean, modular coding conventions (pascal case nomenclature).
 * **Tool Considerations**: This CPU has been designed primiarily using Vivado 2024.2 EDA Suite (ML Standard Edition). The directory structure and usage instructions are reflective of this.
 
+
 ### RTL Implementation
 This CPU consists of 17 parameterized modules, namely:
-  * 1. Program Counter
-  * 2. PC Incrementer
-  * 3. Instruction Memory (read only)
-  * 4. Register File (dual port read/single port write)
-  * 5. Immediate Generator for RV32IM
-  * 6. Control Unit with full signal decoding for RV32IM
-  * 7. ALU Input Selector (mux tree)
-  * 8. ALU Control Generator (with custom control codes)
-  * 9. ALU for RV32I insturctions
-  * 10. ALU for RV32M instructions
-  * 11. Branch Target Generator (offset addition)
-  * 12. Jump Target Generator (masking/passthrough)
-  * 13. Target Controller (for Branch and Jump decisions)
-  * 14. ALU Select Mux (select between RV32I and RV32M ALUs)
-  * 15. Writeback Mux
-  * 16. PC Next Mux
-  * 17. Data Memory (single port read/write)
+   1. Program Counter
+   2. PC Incrementer
+   3. Instruction Memory (read only)
+   4. Register File (dual port read/single port write)
+   5. Immediate Generator for RV32IM
+   6. Control Unit with full signal decoding for RV32IM
+   7. ALU Input Selector (mux tree)
+   8. ALU Control Generator (with custom control codes)
+   9. ALU for RV32I insturctions
+   10. ALU for RV32M instructions
+   11. Branch Target Generator (offset addition)
+   12. Jump Target Generator (masking/passthrough)
+   13. Target Controller (for Branch and Jump decisions)
+   14. ALU Select Mux (select between RV32I and RV32M ALUs)
+   15. Writeback Mux
+   16. PC Next Mux
+   17. Data Memory (single port read/write)
+
 
 ### Supported Instructions by Type
 
@@ -50,9 +52,10 @@ This CPU fully implements the **RV32IM ISA**, including both integer and multipl
 | **U-type** | `LUI`, `AUIPC` |
 | **J-type** | `JAL` |
 
-### Schematic for Data and Control Path - RV32IM Single Cycle implementation
-* ..
 
+### Schematic for Data and Control Path - RV32IM Single Cycle implementation
+
+<img width="1920" height="1080" alt="CPU_FYP" src="https://github.com/user-attachments/assets/7fe0b685-9c16-4038-a1ff-7eeaffaadca5" />
 
 
 ### Unique Features
